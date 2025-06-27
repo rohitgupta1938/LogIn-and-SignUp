@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Sign up</h2>
+      <div class="inputBox" id="email-inputBox">
+        <input type="text" id="email" placeholder="Email" />
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+
+      <div class="inputBox" id="password-inputBox">
+        <input type="password" id="password" placeholder="Password" />
+        <i class="fa-solid fa-lock"></i>
+      </div>
+
+      <div class="inputBox" id="confirm-password-inputBox">
+        <input
+          type="password"
+          id="confirm-password"
+          placeholder="Confirm Password"
+        />
+        <i class="fa-solid fa-lock"></i>
+      </div>
+
+      <button type="button" class="btn-login">Sign up</button>
+      <div class="account-section">
+        <p>Already have an account</p>
+        <a href="LogIn.html">Log In</a>
+      </div>
+
+      <div class="breakLine">
+        <p class="line"></p>
+        or
+        <p class="line"></p>
+      </div>
+
+      <button type="button" class="btn-google">
+        <i class="fa-solid fa-g"></i>
+        <p>Sign up with Google</p>
+      </button>
+    </div>
+
+    <script src="validation.js"></script>
+  </body>
+</html>
